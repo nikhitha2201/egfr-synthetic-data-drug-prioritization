@@ -1,5 +1,7 @@
 # egfr-synthetic-data-drug-prioritization
-EGFR low-data hit prioritization using physics-aware synthetic data from docking.  Tests Genesis Molecular AI's GEMS/Pearl idea: real ChEMBL data + high-confidence docking pseudo-labels → Random Forest → ROC-AUC 0.81 → 1.00 improvement.  Full pipeline: ChEMBL → Vina docking → RDKit features → reproducible ML comparison.
+EGFR synthetic and real ligand dataset for ML-based scoring and prioritization.  
+Includes docking pipelines, feature extraction, and baseline machine learning models.  
+Results with ROC/PR curves and PyMOL visualizations for protein-ligand interactions.
 
 
 ## 🚀 Quick Start
@@ -11,7 +13,7 @@ cd egfr-synthetic-data-drug-prioritization
 conda env create -f environment.yml
 conda activate egfr_env
 
-**## Run pipeline**
+# Run pipeline
 bash scripts/receptor_prep.sh
 python notebooks/chembl_real_ligands.ipynb
 bash scripts/prepared_pdbqt.sh
