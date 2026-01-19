@@ -1,0 +1,13 @@
+receptor = /home/nikki/egfr_lowdata_scoring/data/protein/1m17_prepared.pdbqt
+
+center_x = 21.965
+center_y = 6.046
+center_z = 57.018
+
+size_x = 20
+size_y = 20
+size_z = 20
+
+exhaustiveness = 8
+num_modes = 9
+energy_range = 3
