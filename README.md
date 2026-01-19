@@ -4,7 +4,7 @@ Includes docking pipelines, feature extraction, and baseline machine learning mo
 Results with ROC/PR curves and PyMOL visualizations for protein-ligand interactions.
 
 
-## 🚀 Quick Start
+## 🚀 Step By Step
 
 ```bash
 # Clone & setup
